@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="/static/dashboard.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="close-sidebar">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="analytics.html"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        </ul>
+        <div class="user-info">
+            <img src="/static/images/thanesh_profile.png" alt="Avatar" class="avatar">
+            <span class="username">Thanesh Gola</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <button class="menu-btn" id="open-sidebar">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="header-content">
+            <h1>Settings</h1>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i> Dark Mode
+        </button>
+    </header>
+
+    <!-- Settings Content -->
+    <div class="dashboard-container">
+        <section class="settings-section">
+            <h2>Theme Customization</h2>
+            <label for="theme-color">Choose Theme Color:</label>
+            <input type="color" id="theme-color" value="#4CAF50">
+            <button id="apply-theme">Apply Theme</button>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>© 2025 Aadhaar Data Dashboard. All rights reserved.</p>
+    </footer>
+
+    <script src="/static/dashboard.js"></script>
+</body>
+
+</html>
