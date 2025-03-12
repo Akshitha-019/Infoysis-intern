@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Aadhaar Data Dashboard</title>
+    <link rel="stylesheet" href="/static/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <button class="close-btn" id="close-sidebar">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul>
+            <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="analytics.html"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        </ul>
+        <div class="user-info">
+            <img src="/static/images/thanesh_profile.png" alt="Avatar" class="avatar">
+            <span class="username">Thanesh Gola</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <button class="menu-btn" id="open-sidebar">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="header-content">
+            <h1>About Aadhaar Data Dashboard</h1>
+        </div>
+        <button id="theme-toggle" class="theme-toggle">
+            <i class="fas fa-moon"></i> Dark Mode
+        </button>
+    </header>
+
+    <!-- About Content -->
+    <div class="dashboard-container">
+        <section class="about-section">
+            <h2>Welcome to the AI Based Fraud Management System for UID Aadhaar</h2>
+            <p>
+                The Aadhaar Data Dashboard is a powerful tool designed to help you analyze and visualize Aadhaar-related data with ease.
+                Whether you're managing Aadhaar images, matching data, or generating insights, this dashboard provides all the features
+                you need in one place.
+            </p>
+
+            <div class="features">
+                <h3>Key Features</h3>
+                <div class="feature-cards">
+                    <div class="card">
+                        <i class="fas fa-upload"></i>
+                        <h4>File Upload</h4>
+                        <p>Upload zip files containing Aadhar images and Excel files with Aadhaar details for processing.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-chart-bar"></i>
+                        <h4>Data Analytics</h4>
+                        <p>Visualize data with interactive charts and tables. Get insights into matching scores and trends.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-cogs"></i>
+                        <h4>Theme Customization</h4>
+                        <p>Customize the dashboard's appearance with a color picker and toggle between dark/light modes.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-search"></i>
+                        <h4>Search Functionality</h4>
+                        <p>Easily search through Aadhaar data using keywords like Aadhaar number, name, or image file name.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team">
+                <h3>Our Team</h3>
+                <div class="team-members">
+                    <div class="member">
+                        <img src="/static/images/thanesh_profile.png" alt="Team Member">
+                        <h4>Thanesh Gola</h4>
+                        <p>Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Aadhaar Data Dashboard. All rights reserved.</p>
+    </footer>
+
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>
