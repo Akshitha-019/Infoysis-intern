@@ -1,9 +1,0 @@
-path: 'C:/Users/Admin/OneDrive/Desktop/infoysis/detection/detection_dataset (1)/data (1).yaml'
-train: 'C:/Users/Admin/OneDrive/Desktop/infoysis/detection/detection_dataset (1)/dataset/dataset/dataset/images/train'
-val: 'C:/Users/Admin/OneDrive/Desktop/infoysis/detection/detection_dataset (1)/dataset/dataset/dataset/images/val'
-
-
-names:
-  0: name
-  1: uid
-  2: address
