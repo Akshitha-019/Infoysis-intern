@@ -1,0 +1,9 @@
+path: 'detect/data.yaml'
+train: '/Users/sahilwadhwa/Desktop/GENAI PROJECT/Infosys Training/dt_model/dataset/dataset/dataset/images/train'
+val: '/Users/sahilwadhwa/Desktop/GENAI PROJECT/Infosys Training/dt_model/dataset/dataset/dataset/images/val'
+
+
+names:
+  0: name
+  1: uid
+  2: address
